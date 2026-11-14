@@ -1,4 +1,4 @@
-import { Building2, Mail, MapPin, Phone } from "lucide-react";
+import { Building as Building2, Mail, MapPin, Phone } from "lucide-react";
 import { club, hours } from "@/lib/content";
 import { IconBadge, Panel, Screen } from "@/components/ui";
 import { Reveal } from "@/components/reveal";
