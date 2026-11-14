@@ -9,7 +9,7 @@ export function Header() {
         Aller au contenu
       </a>
       <div className="relative mx-auto flex max-w-6xl items-center justify-between gap-4 rounded-full border border-white/10 bg-[#0a1a16]/70 px-3 py-2 shadow-[0_18px_50px_-28px_rgba(0,0,0,0.8)] backdrop-blur-xl sm:px-4">
-        <a href="#accueil" className="flex items-center gap-2.5 text-paper">
+        <a href="#accueil" className="flex items-center gap-2.5 text-paper transition-opacity hover:opacity-80">
           <TargetMark className="size-7 text-brass-soft" />
           <span className="font-display text-lg font-semibold tracking-tight">ATB</span>
           <span className="sr-only">Association de Tir Berckois</span>
@@ -26,7 +26,10 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <a href="#contact" className="btn-primary hidden !px-3.5 !py-2 text-[0.72rem] sm:inline-flex">
+          <a
+            href="#contact"
+            className="btn-primary hidden !px-3.5 !py-2 text-[0.72rem] sm:inline-flex"
+          >
             Contact →
           </a>
           <MobileNav />
